@@ -1,0 +1,105 @@
+# ********************** Accessoires ******************************
+ 
+parcellite # gestion du presse-papier
+ 
+ppa:shutter/ppa
+shutter # logiciel de capture d'écran évolué
+ 
+# ********************** Autres ******************************
+ 
+deb http://www-personal.umich.edu/~tjwatt/suldr/ debian extra > samsungCLX3175_driver.list
+http://www-personal.umich.edu/~tjwatt/suldr/suldr.gpg
+samsungmfp-configurator-data samsungmfp-configurator-qt4 samsungmfp-driver samsungmfp-data samsungmfp-scanner # driver imprimante Samsung CLX 3175
+ 
+# ********************** Bureautique ******************************
+ 
+ppa:claydoh/ppa
+kmymoney2 # gestion des finances personnels
+ 
+gcstar # gestionnaire de collections (livres)
+ 
+# ********************** Education ******************************
+ 
+gcompris tuxpaint # gcompris + logiciel de dessin matriciel pour les enfants
+ 
+childsplay childsplay-alphabet-sounds-fr # Childsplay + langue française
+ 
+pysycache pysycache-buttons-beerabbit pysycache-buttons-crapaud pysycache-buttons-wolf pysycache-click-sea pysycache-dblclick-butterfly pysycache-move-animals pysycache-move-food pysycache-move-plants pysycache-move-sky pysycache-move-sports pysycache-puzzle-cartoons pysycache-puzzle-photos # Psycache + extensions
+ 
+# ********************** Graphisme ******************************
+ 
+gimp gimp-help-fr # retouche d'image matriciels
+ 
+inkscape # logiciel de dessin vectoriel
+ 
+# Logiciels Photo
+ppa:dlynch3/ppa
+rapid-photo-downloader # Copie et renommage de photos depuis un appareil photo numérique
+ 
+deb http://jbrout.free.fr/download/debian binary/ > jbrout.list
+jbrout # tagging des photos
+ 
+ppa:damien-moore/ppa
+phraymd # tagging des photos
+ 
+hugin # assemblage de photos en panorama
+ 
+-f-spot # suppression de f-spot (mono+lourd)
+ 
+# ********************** Internet ******************************
+ 
+ppa:deluge-team/ppa
+deluge-common deluge-gtk # IHM GTK du client torrent deluge
+ 
+-transmission-common transmission-gtk # suppression de transmission client torrent installé par défaut dans Gnome
+ 
+# Nouveautés : DAILY > BETA > DEV > STABLE (n'existe pas sous Linux)
+#ppa:chromium-daily/ppa
+#ppa:chromium-daily/beta
+ppa:chromium-daily/dev
+chromium-browser # navigateur web
+ 
+pidgin # messagerie instantannée
+ 
+-empathy empathy-common nautilus-sendto-empathy # suppression d'empathy loiciel de messagerie instantannée installé par défaut dans Gnome et de son intégration dans Nautilus
+ 
+thunderbird thunderbird-locale-fr thunderbird-gnome-support # client email
+ 
+deb http://linux.dropbox.com/ubuntu lucid main > dropbox.list
+key:FC918B335044912E
+nautilus-dropbox # stockage on-line et synchronisation de fichiers
+ 
+# ********************** Jeux ******************************
+ 
+frozen-bubble # jeux où il faut exploser des boules en en associant 3 par couleur
+ 
+# ********************** Outils sytèmes ******************************
+ 
+htop # monitoring mémoire / cpu ...
+ 
+language-pack-fr language-pack-gnome-fr # pack de langue pour completement franciser Ubuntu
+ 
+# ********************** Son et Vidéo ******************************
+ 
+deb http://packages.medibuntu.org/ lucid free non-free > medibuntu.list
+key:0C5A2783
+non-free-codecs # codecs audio-vidéo non libres
+ 
+asunder # ripp des CDs
+ 
+ppa:handbrake-ubuntu/ppa
+handbrake-gtk # ripp des DVDs
+ 
+ppa:c-korn/ppa
+vlc # lecteur multimédia (audio/vidéo)
+ 
+# ********************** Outils (non desktop) ******************************
+ 
+autofs # montage automatique de système de fichier distant
+ 
+nfs-common # client NFS
+ 
+deb http://archive.canonical.com/ubuntu lucid partner > partner.list
+sun-java6-jre # framework Java
+ 
+vim # editeur VI amélioré
