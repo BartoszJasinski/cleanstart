@@ -1,11 +1,15 @@
+###################################################################
+# If you do not want to install specific package comment it with 
+# double sharp e.g. ##emacs
+###################################################################
+
 # ********************** Accessories ******************************
  
  
-
  
 # ********************** Education ******************************
  
-
+boinc # The BOINC client program
 
 # ********************** Graphics ******************************
  
@@ -28,14 +32,27 @@ thunderbird  # thunderbird - Mail User Agent (MUA) and newsgroup/RSS client for 
 # ********************** Games ******************************
  
 
+# ********************** IT *********************************
+
+python # an interpreted, interactive, object-oriented programming language
+
+# ********************* Math ********************************
+
+speedcrunch # A speed calculator in QT
  
 # ************************* Misc ************************************
 
+youtube-dl # download videos from youtube.com or other video platforms
 
+safeeyes # reminds to make yourself some breaks
+
+redshift # Set color temperature of display according to time of day
 
 # ************************* Office **********************************
 
+libreoffice # LibreOffice office suite
 
+texmaker # A Cross-Platform LaTeX Editor
 
 # ********************** System Tools ******************************
  
@@ -52,6 +69,18 @@ mocp # Console audio player
 ppa:c-korn/ppa
 vlc # the VLC media player
  
+# ********************** Tools ********************************************
+
+keepass2 # password manager
+
+##komorebi # An awesome wallpapers manager
+
 # ********************** Tools (non desktop) ******************************
  
+byobu # wrapper script for seeding a user's byobu configuration and launching a text based window manager (either screen or tmux)
+
+mc # Visual shell for Unix-like systems
+
 vim #  Vi IMproved, a programmers text editor
+
+qemu # QEMU Emulator
