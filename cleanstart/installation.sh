@@ -1,7 +1,7 @@
-#! /bin/bash
+#!/usr/bin/env bash
  
 ################################################################################
-# Ubuntu (> 9.10) post installation script
+# Post installation script
 # by nemo
 #
 # based on cleanstart-packages.list.sh by silverwav - OpenPGP key:03187548 15 Apr 2009 and VoidAndAny
@@ -67,16 +67,18 @@ if [ $# -eq "1" ]
 then
  CONFIG_FILE=$1
 else
- CONFIG_FILE=packages.list
+ CONFIG_FILE=./packages/packages.list
 fi
 
+# WIP
 SU_PERMS=sudo
 PCKG_MGR=apt
 PCKG_MGR_INSTL=install
 PCKG_MGR_UPDATE=update
 UPDATE_PCKG="$SU_PERMS $PACKG_MGR $PACKG_MGR_UPDATE"                                                                                                  
 INSTL_PCKG="$SU_PERMS $PACKG_MGR $PACKG_MGR_INSTL"                                                                                                    
-                                                  
+# WIP     
+
 PACKAGE_NAME_LIST=$(cat $CONFIG_FILE | grep -v -E "(^#)|(^ppa:)|(^deb http)|(^-)|(^key:)|(^http:.*\.gpg)" | awk -F'#' '{ print $1}')
 REMOVE_PACKAGE_LIST=$(cat $CONFIG_FILE | grep -E "^-" | awk -F'#' '{ print $1}' | sed 's/^-//g')
 PPA_NAME_LIST=$(cat $CONFIG_FILE | grep -E "^ppa:" | awk -F'#' '{ print $1}')
@@ -127,6 +129,16 @@ echo "--------------------------------------------------------------------------
  
 aptitude remove ${REMOVE_PACKAGE_LIST}
  
+echo ""
+echo "Executing user defined scripts:" 
+echo "--------------------------------------------------------------------------------"
+
+# TODO use user defined path to scrip
+for script in ./scripts/*; do
+    [ -f "$script" ] && [ -x "$script" ] && "$script"
+done
+
+
 echo ""
 echo "Done"
 echo "--------------------------------------------------------------------------------"
