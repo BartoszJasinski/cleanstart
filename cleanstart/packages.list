@@ -35,6 +35,7 @@ thunderbird  # thunderbird - Mail User Agent (MUA) and newsgroup/RSS client for 
 # ********************** IT *********************************
 
 python # an interpreted, interactive, object-oriented programming language
+pip # A tool for installing and managing Python packages
 
 # ********************* Math ********************************
 
@@ -56,7 +57,7 @@ texmaker # A Cross-Platform LaTeX Editor
 
 # ********************** System Tools ******************************
  
-htop # htop - interactive process viewer
+htop # interactive process viewer
  
 # ********************** Sound and video ******************************
  

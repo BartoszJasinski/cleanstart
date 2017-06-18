@@ -2,9 +2,9 @@
  
 ################################################################################
 # Ubuntu (> 9.10) post installation script
-# by VoidAndAny
+# by nemo
 #
-# based on cleanstart-packages.list.sh by silverwav - OpenPGP key:03187548 15 Apr 2009
+# based on cleanstart-packages.list.sh by silverwav - OpenPGP key:03187548 15 Apr 2009 and VoidAndAny
 #
 # this script read a config file and :
 #     add PPA with add-apt-repository
@@ -69,7 +69,14 @@ then
 else
  CONFIG_FILE=packages.list
 fi
- 
+
+SU_PERMS=sudo
+PCKG_MGR=apt
+PCKG_MGR_INSTL=install
+PCKG_MGR_UPDATE=update
+UPDATE_PCKG="$SU_PERMS $PACKG_MGR $PACKG_MGR_UPDATE"                                                                                                  
+INSTL_PCKG="$SU_PERMS $PACKG_MGR $PACKG_MGR_INSTL"                                                                                                    
+                                                  
 PACKAGE_NAME_LIST=$(cat $CONFIG_FILE | grep -v -E "(^#)|(^ppa:)|(^deb http)|(^-)|(^key:)|(^http:.*\.gpg)" | awk -F'#' '{ print $1}')
 REMOVE_PACKAGE_LIST=$(cat $CONFIG_FILE | grep -E "^-" | awk -F'#' '{ print $1}' | sed 's/^-//g')
 PPA_NAME_LIST=$(cat $CONFIG_FILE | grep -E "^ppa:" | awk -F'#' '{ print $1}')
