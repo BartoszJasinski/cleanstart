@@ -2,7 +2,7 @@
  
 ################################################################################
 # Post installation script
-# by nemo
+# by Bartosz Jasinski
 #
 # based on cleanstart-packages.list.sh by silverwav - OpenPGP key:03187548 15 Apr 2009 and VoidAndAny
 #

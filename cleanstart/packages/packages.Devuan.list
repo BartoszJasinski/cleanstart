@@ -9,7 +9,7 @@
  
 # ********************** Education ******************************
  
-boinc # The BOINC client program
+##boinc # The BOINC client program
 
 # ********************** Graphics ******************************
  
@@ -43,32 +43,31 @@ safeeyes # reminds to make yourself some breaks
 
 redshift # Set color temperature of display according to time of day
 
+### mayby it should be installed by separate script i3 # an improved dynamic, tiling window manager
+
 # ************************* Office **********************************
 
 libreoffice # LibreOffice office suite
 
-texmaker # A Cross-Platform LaTeX Editor
+evince # GNOME document viewer
+
+##texmaker # A Cross-Platform LaTeX Editor
 
 # ********************** System Tools ******************************
  
 htop # interactive process viewer
  
 # ********************** Sound and video ******************************
- 
-deb http://packages.medibuntu.org/ lucid free non-free > medibuntu.list
-key:0C5A2783
-non-free-codecs # Audio-video codecs not free
- 
+
 mocp # Console audio player
 
-ppa:c-korn/ppa
 vlc # the VLC media player
+
+pasystray # pulseAudio controller for the system tray
  
 # ********************** Tools ********************************************
 
 keepass2 # password manager
-
-##komorebi # An awesome wallpapers manager
 
 # ********************** Tools (non desktop) ******************************
  
