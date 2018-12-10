@@ -9,3 +9,7 @@ install pasystray
 add bartosz to file enabling to shutdown, reboot, suspend etc.
 create auto distro updater (in crontabs probably)
 set default applications with xdg-mime
+set default application with xdg-mime for image files
+set default application with xdg-mime for pdf files
+add screenshot tool to i3wm
+

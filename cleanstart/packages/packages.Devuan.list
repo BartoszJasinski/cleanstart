@@ -5,7 +5,7 @@
 
 # ********************** Accessories ******************************
  
- 
+xfce4-screenshooter # application to take screenshots
  
 # ********************** Education ******************************
  
@@ -14,8 +14,8 @@
 # ********************** Graphics ******************************
  
 gimp gimp-help-en # an image manipulation and paint program
- 
 inkscape # an SVG (Scalable Vector Graphics) editing program
+ristretto # lightweight picture-viewer for the Xfce desktop environment
  
 # ********************** Internet ****************************** 
  
@@ -38,9 +38,7 @@ speedcrunch # calculator in QT
 # ************************* Misc ************************************
 
 youtube-dl # download videos from youtube.com or other video platforms
-
 safeeyes # reminds to make yourself some breaks
-
 redshift # Set color temperature of display according to time of day
 
 ### mayby it should be installed by separate script i3 # an improved dynamic, tiling window manager
@@ -48,9 +46,7 @@ redshift # Set color temperature of display according to time of day
 # ************************* Office **********************************
 
 libreoffice # LibreOffice office suite
-
 evince # GNOME document viewer
-
 ##texmaker # A Cross-Platform LaTeX Editor
 
 # ********************** System Tools ******************************
@@ -60,9 +56,7 @@ htop # interactive process viewer
 # ********************** Sound and video ******************************
 
 mocp # Console audio player
-
 vlc # the VLC media player
-
 pasystray # pulseAudio controller for the system tray
  
 # ********************** Tools ********************************************
@@ -72,9 +66,6 @@ keepass2 # password manager
 # ********************** Tools (non desktop) ******************************
  
 byobu # wrapper script for seeding a user's byobu configuration and launching a text based window manager (either screen or tmux)
-
 mc # Visual shell for Unix-like systems
-
 vim #  Vi IMproved, a programmers text editor
-
 qemu # QEMU Emulator
