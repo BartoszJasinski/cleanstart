@@ -3,7 +3,8 @@ http://www.webupd8.org/2013/06/better-font-rendering-in-linux-with.html
 alias for sudo apt update && sudo apt upgrade
 alias for sudo apt install 
 install firefox-nightly
-create /usr/local/bin hard link for firefox-nightly
+create /usr/local/bin link for firefox-nightly
+create /usr/local/bin link for jetbrains-toolbox
 install fontawsome (optional)
 install pasystray
 add bartosz to file enabling to shutdown, reboot, suspend etc.
@@ -12,4 +13,13 @@ set default applications with xdg-mime
 set default application with xdg-mime for image files
 set default application with xdg-mime for pdf files
 add screenshot tool to i3wm
-
+limit sound loudness when headphones are connected
+reduce linux tdp
+change devuan repo server to polish
+rewrite it with debian seedfile or another configuration tool
+change toast massages timeout in i3wm
+hibernate after few minutes
+adjust MTU
+fix keyboard layout after sleep
+auto export and import settings in Pycharm/Intellij Idea/Rider etc.
+add before new Distro installation script which will save setting from apps/make backup for new installation

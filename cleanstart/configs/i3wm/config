@@ -95,8 +95,8 @@ bindsym $mod+a focus parent
 
 # set workspaces names (with FontAwsome icons)
 set $workspace1 "1: "
-set $workspace2 "2: "
-set $workspace3 "3: "
+set $workspace2 "2: "
+set $workspace3 "3: "
 set $workspace4 "4: "
 set $workspace5 "5: "
 set $workspace6 "6: "
@@ -137,8 +137,9 @@ bindsym $mod+Shift+0 move container to workspace $workspace10
 #assign [class="Firefox"] $workspace10
 #exec --no-startup-id i3-msg 'workspace $workspace3; exec pycharm'
 exec --no-startup-id i3-msg 'workspace $workspace1; exec jetbrains-toolbox'
-exec --no-startup-id i3-msg 'workspace $workspace2; exec xfce4-terminal' 
-exec --no-startup-id i3-msg 'workspace $workspace3; exec firefox-nightly'
+exec --no-startup-id i3-msg 'workspace $workspace2; exec firefox-nightly'
+exec --no-startup-id i3-msg 'workspace $workspace3; exec xfce4-terminal' 
+
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -245,10 +246,11 @@ exec redshift
 
 #Custom keybindings
 bindsym $mod+shift+x exec i3lock --color "$bg-color"
-bindsym $mod+shift+s exec "i3-nagbar -t warning -m 'You pressed the shut down shortcut. Do you really want to shut down your computer?' -b 'Yes, shut down' 'sudo /sbin/halt '"
+bindsym $mod+shift+s exec "i3-nagbar -t warning -m 'You pressed the shutdown shortcut. Do you really want to shutdown your computer?' -b 'Yes, shutdown' 'sudo /sbin/halt'"
 #bindsym $mod+shift+r exec "i3-nagbar -t warning -m 'You pressed the restart shortcut. Do you really want to restart your computer?' -b 'Yes, restart' 'sudo /sbin/restart'" 
 bindsym $mod+shift+h exec sudo pm-hibernate
 bindsym $mod+shift+p exec sudo pm-suspend
-bindsym $mod+shift+b exec sudo reboot
- 
+#bindsym $mod+shift+b exec sudo reboot
+
+bindsym $mod+shift+b exec "i3-nagbar -t warning -m 'You pressed the reboot shortcut. Do you really want to reboot your computer?' -b 'Yes, reboot' 'sudo /sbin/reboot'"
 
