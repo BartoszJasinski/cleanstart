@@ -1,18 +1,17 @@
 write script for i3wm installation and configuration
 http://www.webupd8.org/2013/06/better-font-rendering-in-linux-with.html
-alias for sudo apt update && sudo apt upgrade
-alias for sudo apt install 
-install firefox-nightly
+alias for sudo apt update && sudo apt upgrade DONE
+alias for sudo apt install DONE
+install & configure firefox-nightly 
 create /usr/local/bin link for firefox-nightly
 create /usr/local/bin link for jetbrains-toolbox
 install fontawsome (optional)
-install pasystray
 add bartosz to file enabling to shutdown, reboot, suspend etc.
 create auto distro updater (in crontabs probably)
 set default applications with xdg-mime
 set default application with xdg-mime for image files
 set default application with xdg-mime for pdf files
-add screenshot tool to i3wm
+add xfce4-screenshooter tool key shortcut to Print Screen keyboard key
 limit sound loudness when headphones are connected
 reduce linux tdp
 change devuan repo server to polish
@@ -23,3 +22,5 @@ adjust MTU
 fix keyboard layout after sleep
 auto export and import settings in Pycharm/Intellij Idea/Rider etc.
 add before new Distro installation script which will save setting from apps/make backup for new installation
+optimize internet connection (change to fastest DNS servers, adjust MTU)
+check if it is correctly written on virtual machine

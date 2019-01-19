@@ -62,6 +62,8 @@ pasystray # pulseAudio controller for the system tray
 # ********************** Tools ********************************************
 
 keepass2 # password manager
+xfce4-screenshooter # application to take screenshots
+
 
 # ********************** Tools (non desktop) ******************************
  
