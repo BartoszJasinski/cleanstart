@@ -3,10 +3,10 @@ http://www.webupd8.org/2013/06/better-font-rendering-in-linux-with.html
 alias for sudo apt update && sudo apt upgrade DONE
 alias for sudo apt install DONE
 install & configure firefox-nightly 
-create /usr/local/bin link for firefox-nightly
-create /usr/local/bin link for jetbrains-toolbox
-install fontawsome (optional)
-add bartosz to file enabling to shutdown, reboot, suspend etc.
+create /usr/local/bin link for firefox-nightly WIP
+create /usr/local/bin link for jetbrains-toolbox WIP
+install fontawsome (optional) PROBABLY REJECT
+add bartosz to file enabling to shutdown, reboot, suspend etc. WIP
 create auto distro updater (in crontabs probably)
 set default applications with xdg-mime
 set default application with xdg-mime for image files
@@ -24,3 +24,8 @@ auto export and import settings in Pycharm/Intellij Idea/Rider etc.
 add before new Distro installation script which will save setting from apps/make backup for new installation
 optimize internet connection (change to fastest DNS servers, adjust MTU)
 check if it is correctly written on virtual machine
+change , to . in numpad in polish keyboard layout
+create more abstraction (like defining what package manage was used (eg. to use in aliases defining), defining if it is made for desktop/laptop)
+change DE order in SLiM (i3wm should be default and xfce second)
+config files overlay vs changing path in script which copies config
+write README.md
