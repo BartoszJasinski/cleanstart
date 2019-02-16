@@ -2,6 +2,7 @@ write script for i3wm installation and configuration
 http://www.webupd8.org/2013/06/better-font-rendering-in-linux-with.html
 alias for sudo apt update && sudo apt upgrade DONE
 alias for sudo apt install DONE
+make alias for sudo apt install hint packages after hitting Tab
 install & configure firefox-nightly 
 create /usr/local/bin link for firefox-nightly WIP
 create /usr/local/bin link for jetbrains-toolbox WIP
@@ -23,9 +24,13 @@ fix keyboard layout after sleep
 auto export and import settings in Pycharm/Intellij Idea/Rider etc.
 add before new Distro installation script which will save setting from apps/make backup for new installation
 optimize internet connection (change to fastest DNS servers, adjust MTU)
-check if it is correctly written on virtual machine
+check if whole cleanstart is correctly written on virtual machine
 change , to . in numpad in polish keyboard layout
 create more abstraction (like defining what package manage was used (eg. to use in aliases defining), defining if it is made for desktop/laptop)
 change DE order in SLiM (i3wm should be default and xfce second)
 config files overlay vs changing path in script which copies config
 write README.md
+improve scripts readiblity like naming paths (eg. PATH-TO-i3wm-CONFIG), echo what is script doing right now (eg. echo 'Editing sudoers file')
+rewrite scripts with https://duckduckgo.com/?q=bash+script+best+practices&t=ffab&ia=web&iax=qa
+write file with coding scheme of project (eg. writing script variable on the beginning of the script), if script is getting long you should think about spllinting it into few files
+check scripts with static bash analysis tool and mayby other tools github.com/koalaman/shellcheck

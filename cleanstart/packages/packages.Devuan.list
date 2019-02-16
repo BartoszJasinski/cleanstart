@@ -34,6 +34,7 @@ git # the stupid content tracker
 # ********************* Math ********************************
 
 speedcrunch # calculator in QT
+geogebra # Dynamic mathematics software for education
  
 # ************************* Misc ************************************
 
@@ -42,6 +43,11 @@ safeeyes # reminds to make yourself some breaks
 redshift # Set color temperature of display according to time of day
 
 ### mayby it should be installed by separate script i3 # an improved dynamic, tiling window manager
+
+# ************************* Music ************************************
+
+spotify # music and podcast streaming platform
+
 
 # ************************* Office **********************************
 
@@ -53,7 +59,7 @@ evince # GNOME document viewer
  
 htop # interactive process viewer
  
-# ********************** Sound and video ******************************
+# ********************** Sound and Video ******************************
 
 mocp # Console audio player
 vlc # the VLC media player
