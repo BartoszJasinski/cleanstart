@@ -245,11 +245,12 @@ exec redshift
 
 
 #Custom keybindings
-bindsym $mod+Shift+x exec i3lock --color "$bg-color"
-bindsym $mod+Shift+s exec "i3-nagbar -t warning -m 'You pressed the shutdown shortcut. Do you really want to shutdown your computer?' -b 'Yes, shutdown' 'sudo /sbin/halt'"
+bindsym $mod+shift+x exec i3lock --color "$bg-color"
+bindsym $mod+shift+s exec "i3-nagbar -t warning -m 'You pressed the shutdown shortcut. Do you really want to shutdown your computer?' -b 'Yes, shutdown' 'sudo /sbin/halt'"
 #bindsym $mod+shift+r exec "i3-nagbar -t warning -m 'You pressed the restart shortcut. Do you really want to restart your computer?' -b 'Yes, restart' 'sudo /sbin/restart'" 
-bindsym $mod+Shift+h exec sudo pm-hibernate
-bindsym $mod+Shift+p exec sudo pm-suspend
+bindsym $mod+shift+h exec sudo pm-hibernate
+bindsym $mod+shift+p exec sudo pm-suspend
+#bindsym $mod+shift+b exec sudo reboot
 
-bindsym $mod+Shift+b exec "i3-nagbar -t warning -m 'You pressed the reboot shortcut. Do you really want to reboot your computer?' -b 'Yes, reboot' 'sudo /sbin/reboot'"
+bindsym $mod+shift+b exec "i3-nagbar -t warning -m 'You pressed the reboot shortcut. Do you really want to reboot your computer?' -b 'Yes, reboot' 'sudo /sbin/reboot'"
 

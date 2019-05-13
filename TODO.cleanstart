@@ -14,7 +14,15 @@ set default application with xdg-mime for image files
 set default application with xdg-mime for pdf files
 add xfce4-screenshooter tool key shortcut to Print Screen keyboard key
 limit sound loudness when headphones are connected
+https://www.google.com/search?hl=en&q=set%20max%20loudness%20level%20after%20connecting%20headphones
+https://askubuntu.com/questions/219739/adjust-max-possible-volume-in-pulseaudio
 reduce linux tdp
+https://duckduckgo.com/?q=how+to+lower+pc+power+consumption&t=ffab&ia=videos
+https://www.youtube.com/results?search_query=reduce+pc+power+consumption
+https://www.youtube.com/watch?v=qfS8-Qvvmfk
+https://www.techradar.com/news/computing/pc/the-ultimate-guide-to-reducing-your-pc-s-power-consumption-661978
+https://forums.tomshardware.com/threads/how-to-reduce-power-consumption.2587379/
+https://techpp.com/2012/03/23/reduce-power-consumption-on-pc/
 change devuan repo server to polish
 rewrite it with debian seedfile or another configuration tool
 change toast massages timeout in i3wm
@@ -34,3 +42,10 @@ improve scripts readiblity like naming paths (eg. PATH-TO-i3wm-CONFIG), echo wha
 rewrite scripts with https://duckduckgo.com/?q=bash+script+best+practices&t=ffab&ia=web&iax=qa
 write file with coding scheme of project (eg. writing script variable on the beginning of the script), if script is getting long you should think about spllinting it into few files
 check scripts with static bash analysis tool and mayby other tools github.com/koalaman/shellcheck
+make special arrow when you overrun on the window border
+https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository
+change DNS to openDNS (or smt similar)
+https://duckduckgo.com/?q=i3wm+pycharm+loses+cursor+&t=ffab&ia=web
+https://www.reddit.com/r/i3wm/comments/9tjj5d/strange_behaviour_on_cursor/
+https://cubethethird.wordpress.com/2018/02/05/improving-ssd-lifetime-on-linux-what-i-learned-not-to-do/
+https://www.servethehome.com/firefox-is-eating-your-ssd-here-is-how-to-fix-it/
